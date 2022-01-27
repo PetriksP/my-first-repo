@@ -18,7 +18,10 @@ class Account:
         self.currency = currency
         self.initial_balance = initial_balance
         self.timestamp = datetime.datetime.now()
-
+        
+        def AddTransaction()
+        pass
+    
 class Client:
     def __init__(self, name: str):
         self.name = name
