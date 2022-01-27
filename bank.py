@@ -17,7 +17,6 @@ class Account:
         Account.auto_account_number += 1
         self.currency = currency
         self.initial_balance = initial_balance
-        self.timestamp = datetime.datetime.now()
         
         def AddTransaction()
         pass
